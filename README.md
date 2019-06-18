@@ -6,12 +6,12 @@ PSAS chose to develop a smaller scale, 2.2kN test engine prior to attempting a 1
 
 The 2.2kN engine was designed to employ a liquid oxygen (LOX) centered pintle. In this design, LOX flows through the center of the pintle and is sprayed outward in a radial pattern. The fuel enters a chamber surrounding the base of the pintle and flows into the engine through the annular gap between the outer diameter of the pintle and the engine. (See Figures 1 & 2) Inside of the combustion chamber, the two propellants impinge upon each other at right angles. This, ideally, results in a cone shaped spray of well mixed fuel and oxidizer. 
  
-<img src="./Images/Engine_cross_section.png" align="center" width="400"/>
+<img src="./Pintle Injector Design Documentation/Images/Engine_cross_section.png" align="center" width="400"/>
 
 >Figure 1: Cross section of 2.2 kN engine. Fuel flow path shown in red, LOX flow path shown in green.
 
 
-<img src="./Images/pintle_dimensions(1).PNG" align="center" width="500"/>
+<img src="./Pintle Injector Design Documentation/Images/pintle_dimensions(1).PNG" align="center" width="500"/>
 
 > Figure 2: cross section view of genaric pintle V1 & V2 geometry.
 
