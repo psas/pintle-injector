@@ -1,3 +1,5 @@
+# Background
+
 The Portland State Aerospace Society (PSAS) is seeking to launch a liquid bi-propellant rocket to a height of 100 km. One of the principal challenges in this endeavor is the development and testing of the rocket engine and associated subsystems. 
 
 
@@ -10,10 +12,21 @@ The 2.2kN engine was designed to employ a liquid oxygen (LOX) centered pintle. I
 
 >Figure 1: Cross section of 2.2 kN engine. Fuel flow path shown in red, LOX flow path shown in green.
 
-
 <img src="./Pintle Injector Design Documentation/Images/pintle_dimensions(1).PNG" align="center" width="500"/>
 
 > Figure 2: cross section view of genaric pintle V1 & V2 geometry.
 
-
 The choice to use this style of injector was finalized by the 2015-2016 capstone team who designed the 2.2kN engine. The use of a pintle type injector is not specifically required for this size of engine. That stated, the initial 2.2kN engine was designed specifically to work with a pintle type injector, which locked a number of the design parameters which may have otherwise been available. The most noteworthy restrictions imposed are that the injector can only be LOX centered, and has a maximum envelope for the outer diameter of the annular gap.
+
+# Theory and Design 
+
+An instructional document was created while developing the injector for our first engine that attempts to distill the fundamental theory, design parameters, and the lessons learned from this project.
+
+
+# V Series Injector
+
+The first pintle injector design developed is the V series. 
+
+
+
+
