@@ -2,10 +2,10 @@
     System Info
                 Status:   Solver is finished.
                 Product:   Flow Simulation 2020 4.0. Build: 4995
-                Computer name:   MCAE19
+                Computer name:   MCAE03
                 User name:   cstarker
                 Processors:   Intel(R) Xeon(R) CPU E3-1240 v6 @ 3.70GHz
-                Memory:   16315 MB / 7494 MB
+                Memory:   16315 MB / 9799 MB
                 Operating system:   Windows 10 (or higher) (Version 10.0.18363)
                 CAD version:   SOLIDWORKS 2020 SP4.0
                 CPU speed:   3696 MHz
@@ -22,7 +22,7 @@
 
     Physical Features
                 Heat conduction in solids:   Off
-                Time dependent:   On
+                Time dependent:   Off
                 Gravitational effects:   Off
                 Flow type:   Laminar and turbulent
                 High Mach number flow:   Off
@@ -42,20 +42,6 @@
                 X size:   5.11 in
                 Y size:   7.12 in
                 Z size:   5.23 in
-
-    Calculation Mesh
-
-        Basic Mesh Dimensions
-                Number of cells in X:   8
-                Number of cells in Y:   9
-                Number of cells in Z:   7
-
-        Number Of Cells
-                Cells:   1968
-                Fluid cells:   1968
-                Irregular cells:   0
-                Trimmed cells:   0
-                Maximum refinement level:   2
 
     Goals
 
@@ -87,21 +73,17 @@
     Goals
                 
                 Name                        	Unit   	Value     	Progress   	Criteria       	Delta            	Use in convergence 
-                GG Maximum Velocity (X) 1   	in/s   	67.21     	100        	10.0352345     	0.136306681      	On                 
-                GG Maximum Velocity (Y) 2   	in/s   	76.73     	100        	11.0346868     	0.197955838      	On                 
-                SG Mass Flow Rate 1         	lb/s   	-0.7452   	100        	0.0922818722   	3.90083139e-05   	On                 
+                GG Maximum Velocity (X) 1   	in/s   	64.89     	100        	10.4781234     	0.178028002      	On                 
+                GG Maximum Velocity (Y) 2   	in/s   	80.53     	100        	14.0100521     	0.726243484      	On                 
+                SG Mass Flow Rate 1         	lb/s   	-0.7451   	100        	0.0987065915   	0.000137795517   	On                 
 
     General Info
-                Run at:   MCAE19
-                Number of cores:   8
-                Iterations:   1319
-                Physical time:   1.696 s
+                Iterations:   0
                 CPU time:   0 s
 
         Log
-                Mesh generation started	0:   15:11:54 , Dec 22
-                Mesh generation normally finished	0:   15:11:55 , Dec 22
-                Preparing data for calculation	0:   15:21:30 , Dec 22
-                Calculation started	0:   15:21:31 , Dec 22
-                Calculation finished	1319:   15:25:32 , Dec 22
-                Warnings:   A vortex crosses the pressure opening	Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=0.727769, 		, 
+                Mesh generation started	0:   10:34:14 , Dec 31
+                Mesh generation normally finished	0:   10:34:15 , Dec 31
+                Preparing data for calculation	0:   10:34:16 , Dec 31
+                Calculation started	0:   10:34:17 , Dec 31
+                Calculation finished	1688:   10:41:25 , Dec 31
