@@ -1,0 +1,107 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2020 4.0. Build: 4995
+                Computer name:   MCAE19
+                User name:   cstarker
+                Processors:   Intel(R) Xeon(R) CPU E3-1240 v6 @ 3.70GHz
+                Memory:   16315 MB / 7494 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.18363)
+                CAD version:   SOLIDWORKS 2020 SP4.0
+                CPU speed:   3696 MHz
+
+    General Info
+                Model:   Assembly_Pintle_V3.SLDASM
+                Project name:   Project(1)
+                Project path:   N:\Downloads\GitHub\pintle-injector\V_Series\Pintle_V3_CAD\1
+                Units system:   IPS (in-lb-s)
+                Analysis type:   Internal
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   On
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Free surface:   Off
+                Default roughness:   0 microinch
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -1.05 in
+                X max:   4.06 in
+                Y min:   -2.90 in
+                Y max:   4.22 in
+                Z min:   1.18 in
+                Z max:   6.41 in
+                X size:   5.11 in
+                Y size:   7.12 in
+                Z size:   5.23 in
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   8
+                Number of cells in Y:   9
+                Number of cells in Z:   7
+
+        Number Of Cells
+                Cells:   1968
+                Fluid cells:   1968
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   2
+
+    Goals
+
+        Global Goals
+
+            GG Maximum Velocity (X) 1
+                Type:   Global Goal
+                Goal type:   Velocity (X)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Velocity (Y) 2
+                Type:   Global Goal
+                Goal type:   Velocity (Y)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+        Surface Goals
+
+            SG Mass Flow Rate 1
+                Type:   Surface Goal
+                Goal type:   Mass Flow Rate
+                Faces:   Face<1>@Outlet_Lid_For_Sim-3
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                        	Unit   	Value     	Progress   	Criteria       	Delta            	Use in convergence 
+                GG Maximum Velocity (X) 1   	in/s   	67.21     	100        	10.0352345     	0.136306681      	On                 
+                GG Maximum Velocity (Y) 2   	in/s   	76.73     	100        	11.0346868     	0.197955838      	On                 
+                SG Mass Flow Rate 1         	lb/s   	-0.7452   	100        	0.0922818722   	3.90083139e-05   	On                 
+
+    General Info
+                Run at:   MCAE19
+                Number of cores:   8
+                Iterations:   1319
+                Physical time:   1.696 s
+                CPU time:   0 s
+
+        Log
+                Mesh generation started	0:   15:11:54 , Dec 22
+                Mesh generation normally finished	0:   15:11:55 , Dec 22
+                Preparing data for calculation	0:   15:21:30 , Dec 22
+                Calculation started	0:   15:21:31 , Dec 22
+                Calculation finished	1319:   15:25:32 , Dec 22
+                Warnings:   A vortex crosses the pressure opening	Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=0.727769, 		, 
